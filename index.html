@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>농협캐피탈-자동차리스</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/reset.css">
+  <script defer src="./js/fucntion.js"></script>
+</head>
+<body>
+  <div id="wrap">
+    <header>
+      <div class="main-header">
+        <button type="button" class="back"><span class="hidden">뒤로가기</span></button>
+        <h1 class="page-title">자동차리스</h1>
+        <button type="button" class="open"><span class="hidden">메뉴열기</span></button>        
+      </div>
+
+
+      <!-- 주메뉴 -->
+
+      <div class="gnb-box">
+        <div class="gnb-header">
+          <div class="g-header-top">
+            <div class="login-box">
+              <button type="button" class="login">로그인하기 </button>
+            </div>
+            <div class="home-clse">
+              <button type="button" class="home"><span class="hidden">홈</span></button>
+              <button type="button" class="close"><span class="hidden">닫기</span></button>
+            </div>
+          </div>
+          <div class="g-header-bottom">
+            <button type="button" class="accredit">
+              <span class="icon"></span>
+              <span class="text">인증센터</span>
+            </button>
+          </div>
+        </div>
+
+
+        <div class="gnb-menu">
+          <ul class="gnb">
+            <li class="on"><a href="#">신용대출</a></li>
+            <li><a href="#">스탁론</a></li>
+            <li><a href="#">자동차금융</a></li>
+            <li><a href="#">산업재금융</a></li>
+            <li><a href="#">주택금융</a></li>
+            <li><a href="#">기업·투자금융</a></li>
+            <li><a href="#">NH임직원MALL</a></li>
+            <li><a href="#">My 페이지</a></li>
+            <li><a href="#">고객센터</a></li>
+            <li><a href="#">회사소개</a></li>
+            <li><a href="#">금융소비자보호</a></li>
+          </ul>
+
+          <!-- 서브메뉴 -->
+
+          <div class="lnb-container">
+            <ul class="lnb-box">
+              <li class="lnb lnb01">
+                <div class="lnb-list">
+                  <ul class="lnb-box">
+                    <li>
+                      <div class="lnb-title">
+                        <b>대출상품</b>
+                      </div>
+                      <ul class="lnb-menu">
+                        <li><a href="#">상품소개</a></li>
+                        <li><a href="#">대출신청</a></li>
+                        <li><a href="#">전화상담신청</a></li>
+                        <li><a href="#">온라인 약정</a></li>
+                      </ul>                      
+                    </li>
+                  </ul>
+                </div>
+              </li>
+
+              <li class="lnb lnb02">
+                <div class="lnb-list">
+                  <ul class="lnb-box">
+                    <li>
+                      <div class="lnb-title">
+                        <b>대출상품</b>
+                      </div>
+                      <ul class="lnb-menu">
+                        <li><a href="#">상품소개</a></li>
+                        <li><a href="#">신규대출 한도조회</a></li>
+                        <li><a href="#">대환대출 한도조회</a></li>
+                        <li><a href="#">추가대출 신청</a></li>
+                      </ul>                      
+                    </li>
+                    <li>
+                      <div class="lnb-title">
+                        <b>한도관리</b>
+                      </div>
+                      <ul class="lnb-menu">
+                        <li><a href="#">한도증액신청</a></li>
+                        <li><a href="#">한도감액신청</a></li>
+                      </ul>                      
+                    </li>
+                    <li>
+                      <div class="lnb-title">
+                        <b>계좌관리</b>
+                      </div>
+                      <ul class="lnb-menu">
+                        <li><a href="#">일부상환신청</a></li>
+                        <li><a href="#">만기연장신청</a></li>
+                        <li><a href="#">해지신청</a></li>
+                        <li><a href="#">당일대출취소</a></li>
+                        <li><a href="#">당일한도증액취소</a></li>
+                      </ul>                      
+                    </li>
+                  </ul>
+                </div>
+              </li>
+
+              <li class="lnb lnb03">
+                <div class="lnb-list">
+                  <ul class="lnb-box">
+                    <li>
+                      <div class="lnb-title">
+                        <b>신차</b>
+                      </div>
+                      <ul class="lnb-menu">
+                        <li><a href="#">상품소개</a></li>
+                        <li><a href="#">대출신청</a></li>
+                        <li><a href="#">전화상담신청</a></li>
+                      </ul>                      
+                    </li>
+                    <li>
+                      <div class="lnb-title">
+                        <b>자동차리스</b>
+                      </div>
+                      <ul class="lnb-menu">
+                        <li><a href="#">상품소개</a></li>
+                        <li><a href="#">견적만들기</a></li>
+                        <li><a href="#">전화상담신청</a></li>
+                      </ul>                      
+                    </li>
+                    <li>
+                      <div class="lnb-title">
+                        <b>장기렌터카</b>
+                      </div>
+                      <ul class="lnb-menu">
+                        <li><a href="#">상품소개</a></li>
+                        <li><a href="#">견적만들기</a></li>
+                        <li><a href="#">전화상담신청</a></li>
+                      </ul>                      
+                    </li>
+                    <li>
+                      <div class="lnb-title">
+                        <b>대출신청관리</b>
+                      </div>
+                      <ul class="lnb-menu">
+                        <li><a href="#">신청정보(약정)</a></li>
+                      </ul>                      
+                    </li>
+                  </ul>
+                </div>
+              </li>
+
+              <li class="lnb lnb04">
+                <div class="lnb-list">
+                  <ul class="lnb-box">
+                    <li>
+                      <div class="lnb-title">
+                        <b>신산업재 할부</b>
+                      </div>
+                      <ul class="lnb-menu">
+                        <li><a href="#">상품소개</a></li>
+                      </ul>                      
+                    </li>
+                    <li>
+                      <div class="lnb-title">
+                        <b>신산업재 론</b>
+                      </div>
+                      <ul class="lnb-menu">
+                        <li><a href="#">상품소개</a></li>
+                      </ul>                      
+                    </li>
+                    <li>
+                      <div class="lnb-title">
+                        <b>중고산업재 론</b>
+                      </div>
+                      <ul class="lnb-menu">
+                        <li><a href="#">상품소개</a></li>
+                      </ul>                      
+                    </li>
+                    <li>
+                      <div class="lnb-title">
+                        <b>대출신청관리</b>
+                      </div>
+                      <ul class="lnb-menu">
+                        <li><a href="#">신청정보(약정)</a></li>
+                      </ul>                      
+                    </li>
+                  </ul>
+                </div>
+              </li>
+
+              <li class="lnb lnb05">
+                <div class="lnb-list">
+                  <ul class="lnb-box">
+                    <li>
+                      <div class="lnb-title">
+                        <b>사업자 아파트담보대출</b>
+                      </div>
+                      <ul class="lnb-menu">
+                        <li><a href="#">상품소개</a></li>
+                      </ul>                      
+                    </li>
+                    <li>
+                      <div class="lnb-title">
+                        <b>임차보증금대출</b>
+                      </div>
+                      <ul class="lnb-menu">
+                        <li><a href="#">상품소개</a></li>
+                      </ul>                      
+                    </li>
+                  </ul>
+                </div>
+              </li>
+
+              <li class="lnb lnb06">
+                <div class="lnb-list">
+                  <ul class="lnb-box">
+                    <li>
+                      <div class="lnb-title">
+                        <b>기업금융</b>
+                      </div>
+                      <ul class="lnb-menu">
+                        <li><a href="#">상품소개</a></li>
+                      </ul>                      
+                    </li>
+                    <li>
+                      <div class="lnb-title">
+                        <b>투자금융</b>
+                      </div>
+                      <ul class="lnb-menu">
+                        <li><a href="#">상품소개</a></li>
+                      </ul>                      
+                    </li>
+                    <li>
+                      <div class="lnb-title">
+                        <b>일반리스</b>
+                      </div>
+                      <ul class="lnb-menu">
+                        <li><a href="#">상품소개</a></li>
+                      </ul>                      
+                    </li>
+                  </ul>
+                </div>
+              </li>
+
+              <li class="lnb lnb07">
+                <div class="lnb-list">
+                  <ul class="lnb-box">
+                    <li>
+                      <div class="lnb-title">
+                        <b>NH임직원 신용대출</b>
+                      </div>
+                      <ul class="lnb-menu">
+                        <li><a href="#">상품소개</a></li>
+                        <li><a href="#">대출신청</a></li>
+                        <li><a href="#">온라인약정</a></li>
+                      </ul>                      
+                    </li>
+                  </ul>
+                </div>
+              </li>
+
+              <li class="lnb lnb08">
+                <div class="lnb-list">
+                  <ul class="lnb-box">
+                    <li>
+                      <div class="lnb-title">
+                        <b>My Account</b>
+                      </div>
+                      <ul class="lnb-menu">
+                        <li><a href="#">전체대출내역</a></li>
+                        <li><a href="#">납부예정금액 조회</a></li>
+                        <li><a href="#">납부내역 조회</a></li>
+                        <li><a href="#">입금계좌번호 조회</a></li>
+                      </ul>                      
+                    </li>
+                    <li>
+                      <div class="lnb-title">
+                        <b>회원정보 관리</b>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+
+              <li class="lnb lnb09">
+                <div class="lnb-list">
+                  <ul class="lnb-box">
+                    <li>
+                      <div class="lnb-title">
+                        <b>전화상담신청</b>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="lnb-title">
+                        <b>ARS 서비스 안내</b>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="lnb-title">
+                        <b>전자금융거래10계명</b>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="lnb-title">
+                        <b>대출모집인/전화상담원 조회</b>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="lnb-title">
+                        <b>중도상환수수료면제 안내</b>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="lnb-title">
+                        <b>대출이용절차안내</b>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="lnb-title">
+                        <b>대출계산기</b>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="lnb-title">
+                        <b>공지사항</b>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="lnb-title">
+                        <b>지점안내</b>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="lnb-title">
+                        <b>이벤트</b>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="lnb-title">
+                        <b>제휴서비스 사이트 안내</b>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+
+              <li class="lnb lnb10">
+                <div class="lnb-list">
+                  <ul class="lnb-box">
+                    <li>
+                      <div class="lnb-title">
+                        <b>회사개요</b>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="lnb-title">
+                        <b>CEO인사말</b>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="lnb-title">
+                        <b>사업비전</b>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="lnb-title">
+                        <b>윤리경영</b>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="lnb-title">
+                        <b>채용정보</b>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+
+              <li class="lnb lnb11">
+                <div class="lnb-list">
+                  <ul class="lnb-box">
+                    <li>
+                      <div class="lnb-title">
+                        <b>전자민원 접수</b>
+                      </div>
+                      <ul class="lnb-menu">
+                        <li><a href="#">전자민원 접수/조회</a></li>
+                      </ul>                      
+                    </li>
+                    <li>
+                      <div class="lnb-title">
+                        <b>금융소비자 정보 조회</b>
+                      </div>
+                      <ul class="lnb-menu">
+                        <li><a href="#">금리인하요구권</a></li>
+                        <li><a href="#">청약철회권</a></li>
+                        <li><a href="#">위법계약해지권</a></li>
+                        <li><a href="#">연락중지 청구</a></li>
+                        <li><a href="#">제공동의 철회</a></li>
+                        <li><a href="#">개인신용평가 결과 대응권</a></li>
+                      </ul>                      
+                    </li>
+                    <li>
+                      <div class="lnb-title">
+                        <b>약관</b>
+                      </div>
+                      <ul class="lnb-menu">
+                        <li><a href="#">이용약관 및 규정</a></li>
+                      </ul>                      
+                    </li>
+                    <li>
+                      <div class="lnb-title">
+                        <b>가명정보처리</b>
+                      </div>
+                      <ul class="lnb-menu">
+                        <li><a href="#">가명정보처리현황</a></li>
+                      </ul>                      
+                    </li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>          
+        </div>
+
+
+      </div>
+    </header>
+
+
+    <!-- 본문영역 -->
+    <div class="container">
+      <div class="contents-title">
+        <h2 class="title">자동차리스</h2>
+      </div>
+
+      <div class="lease">
+        <p class="lease-text">
+          구매와 임대를 복합적으로 선택할 수 있는 선진 자동차 금융상품으로써 고객이 원하는 차량을 각종 부대비용 및 편의서비스를 포함하여 매월 일정 리스료로 대여해 주는 상품입니다.
+        </p>
+        <div class="lease-date">
+          <dl>
+            <dt>리스 기간</dt>
+            <dd><b>60</b>개월(최장)</dd>
+          </dl>
+        </div>
+        <div class="lease-btn-area">
+          <button type="button" class="tel-counsel">전화상담신청</button>
+          <button type="button" class="estimate">견적 만들기</button>
+        </div>
+
+        <div class="link-info">
+          <a href="#" class="tel-number">
+            <span class="icon-tel"><i class="hidden">상담전화</i></span>
+            <span class="info-text">상담전화 1644-3900</span>
+          </a>
+          <a href="#" class="find-center">
+            <span class="icon-center"><i class="hidden">지점찾기</i></span>
+            <span class="info-text">지점찾기</span>
+          </a>          
+        </div>
+      </div>
+
+      <div class="tab-part">
+        <div class="tab-menu">
+          <ul class="tab">
+            <li class="on"><a href="#">상품소개</a></li>
+            <li><a href="#">상세정보</a></li>
+          </ul>
+        </div>
+
+        <div class="tab-page">
+          <div class="page page01">
+            <div class="tab-title">
+              승용 신차 (국산/수입)
+              <br />
+              15인승 이하 승합
+              <br />
+              2.5톤 이하 화물
+            </div>
+
+            <div class="tab-text">자동차를 구입하고자 하는 개인, 개인사업자, 법인</div>
+
+            <div class="main-img-box animate">
+              <span class="mainImg img01"><img src="./images/intro_car_ani1.png" alt="승용신차" /></span>
+              <span class="mainImg img02"><img src="./images/intro_car_ani2.png" alt="15인승이하 승합" /></span>
+              <span class="mainImg img03"><img src="./images/intro_car_ani3.png" alt="2.5톤이하 화물" /></span>
+            </div>
+
+            <div class="cont-text">
+              <dl class="text-small">
+                <dt>종료 후 처리</dt>
+                <dd>- 운용리스 :인수,반납 또는 재리스 중 선택</dd>
+                <dd class="margin">- 금융리스 :인스</dd>
+              </dl>
+              <dl class="text-small">
+                <dt>리스기간</dt>
+                <dd>12,24,36,48,60 개월</dd>
+              </dl>
+      
+              <div class="lease-process">
+                <div class="process-title">신청프로세스</div>
+                <ul class="process-list">
+                  <li>
+                    <span class="num-icon">1</span>
+                    <span class="list-text">상담신청</span>
+                  </li>
+                  <li>
+                    <span class="num-icon">2</span>
+                    <span class="list-text">상담원 연락</span>
+                  </li>
+                  <li>
+                    <span class="num-icon">3</span>
+                    <span class="list-text">한도확인</span>
+                  </li>
+                  <li>
+                    <span class="num-icon">4</span>
+                    <span class="list-text">약정서 작성(방문서비스)</span>
+                  </li>
+                  <li class="shadow">
+                    <span class="num-icon point">5</span>
+                    <span class="list-text">계약실행</span>
+                  </li>
+                </ul>
+                <div class="process-date">2022년 06월 28일 기준</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="page page02">
+            <dl class="detail-info">
+              <dt>중도해지손해배상금 (차량반납)</dt>
+              <dd>- 운용리스 : 미회수원금 X 85% X (잔여기간 월수/리스기간 전체월수)</dd>
+              <dd>- 금융리스 : 중도반납 불가</dd>
+            </dl>
+
+            <dl class="detail-info">
+              <dt>규정손해배상금(차량매입)</dt>
+              <dd>- 운용리스 : 미회수원금 X 20% X (잔여기간 월수/리스기간 전체월수)</dd>
+              <dd>- 금융리스 : 미회수원금 X 3% X (잔여기간 월수/리스기간 전체월수)</dd>
+            </dl>
+
+            <dl class="detail-info">
+              <dt>연체이자율</dt>
+              <dd><b>- 운용리스 : 19%</b></dd>
+              <dd><b>- 금융리스 : 약정이율 + 최대 2%(단, 법정 최고금리 이내)</b></dd>
+              <dd>
+                <div class="detail-box">
+                  <ul class="bullet">
+                    <li>
+                      <p class="tit">
+                        <b>연체이자 발생 시점에 약정이율이 없는 경우에는 다음 각 호에 해당하는 금리 중 높은 금리를 약정이자율로 적용합니다.</b>
+                      </p>
+                      <p class="list">
+                        <b>
+                          1.'상법' 제 54조에 따른 상사법정이율
+                          <br />
+                          2.'한국은행법' 제 86조에 따라 한국은행에서 매월 발표하는 가장 최근의 비은행 금융기관 가중평균대출금리(신규취급액 기준) 중 상호 금융가계자금 대출금리
+                        </b>
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+              </dd>
+            </dl>
+
+            <dl class="detail-info">
+              <dt>승계수수료</dt>
+              <dd>승계금액 X 1.5% X (잔여기간 월수/리스기간 전체 월수) (최소 30만원, 최대 100만원)</dd>
+            </dl>
+
+            <div class="document-list">
+              <div class="document-title"><b>필요서류</b></div>
+              <div class="table-area">
+                <table>
+                  <caption>필요서류</caption>
+                  <colgroup>
+                    <col style="width: 30%;">
+                    <col>
+                  </colgroup>
+                  <thead>
+                    <tr>
+                      <th scope="col">구분</th>
+                      <th scope="col">필요서류</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">공통</th>
+                      <td>
+                        <p>차량등록증사본</p>
+                        <p>매매계약서</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th scope="row">
+                        개인/
+                        <br />
+                        개인사업자
+                      </th>
+                      <td>
+                        <p>
+                          운전면허증사본
+                          <br />
+                          (면허 유 : 신분증 대체)
+                        </p>
+                        <p>주민등록등본</p>
+                        <p>인감증명서</p>
+                        <p>자동이체통장사본</p>
+                        <p>소득증명서류</p>
+                        <p>- 개인 : 소득금액증명</p>
+                        <p>- 개인사업자 : 부가세표준증명</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th scope="row">법인</th>
+                      <td>
+                        <p>법인등기부등본</p>
+                        <p>법인인감증명서 / 사업자등록증사본</p>
+                        <p>제무제표</p>
+                        <p>주주명부</p>
+                        <p>자동이체통장사본</p>
+                        <p>보증인 인감증명서 / 주민등록등본 / 신분증사본</p>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>                
+              </div>
+
+              <div class="document-txt">
+                <p>심사 시 추가적인 서류를 요청할 수 있습니다.</p>
+              </div>
+            </div>
+
+            <dl class="detail-info">
+              <dt>상환방식</dt>
+              <dd>
+                <p>원리금균등상환으로 매월 일정한 금액을 상환하는 방식</p>
+                <div class="img-box">
+                  <img src="./images/intro_newcar01.png" alt="상환방식">
+                </div>
+              </dd>
+            </dl>
+
+            <dl class="detail-info">
+              <dt>자동차리스의 장점 (운용리스 기준)</dt>
+              <dd>
+                <p>저렴한 할부원금 (할부 대비 평균 40% 불입금 인하)</p>
+                <div class="img-box">
+                  <img src="./images/intro_leasecar01.png" alt="리스장점">
+                  <div class="img-text">
+                    <div class="title">할부 및 현금구입</div>
+                    <p class="txt">차량가 전액에 대해 상환:월 불입금↑</p>
+                  </div>
+                  <div class="img-text">
+                    <div class="title">자동차리스 이용</div>
+                    <p class="txt">잔존가치 제외분에 대해서만 상환:월 불입금↓</p>
+                    <p class="txt important">※자동차리스의 상기 지불 총액은 반납 시 기준임</p>  
+                  </div>
+                </div>
+              </dd>
+            </dl>
+
+            <dl class="detail-info">
+              <dt>중고차 가치하락 Risk Hedge</dt>
+              <dd>
+                <div class="img-box">
+                  <img src="./images/intro_leasecar02.png" alt="중고차 가치하락">
+                  <div class="img-text">
+                    <p class="txt important">※매입 / 반납 / 재리스는 만기 시 제약없이 선택 가능</p>  
+                  </div>
+                </div>
+              </dd>
+            </dl>
+
+            <div class="process-date">2022년 06월 28일 기준</div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="dividing-line">구분선</div>
+
+      <div class="guide-info">
+        <div class="guide-title">안내유의사항</div>
+        <ul class="guide-list">
+          <li>계약을 체결하기 전에 금융상품설명서와 약관을 확인하시기 바랍니다.</li>
+          <li>
+            고객님의 신용평점 및 대출기간등에 따라 한도, 대출금리 및 월 납입 리스료 등이 다를 수 있습니다.
+            <strong>※ 금융리스약정금리:최저 연4.0% ~ 최대 연13.0%입니다.</strong>
+          </li>
+          <li>
+            <strong>상환능력에 비해 대출금이 과도할 경우, 귀하의 개인신용 평점이 하락할 수 있습니다.</strong>
+          </li>
+          <li>
+            <strong>개인신용평점 하락시 금융거래와 관련된 불이익이 발생할 수 있습니다.</strong>
+          </li>
+          <li>대출취급이 부적정한 경우(개인신용평점 낮음 등)대출이 제한될 수 있습니다.</li>
+          <li>
+            <strong>일정기간 원리금(또는 대출금,납부대금 등)을 연체할 경우, 모든 원리금을 변제할 의무가 발생할 수 있습니다.</strong>
+          </li>
+          <li>금융소비자는 금소법 제19조 제1항에 따라 해당상품 또는 서비스에 대하여 설명을 받을 권리가 있습니다.</li>
+        </ul>
+        <div class="guide-consider">
+          ※ 여신금융협회 심의필 제 2002-C1h-05090호
+          <br />
+          (2022.06.28 ~ 2023.06.27)
+        </div>        
+      </div>
+    </div>
+
+    <aside>
+      <div class="bottom-btn-area">
+        <button type="button" class="tel-counsel">전화상담신청</button>
+        <button type="button" class="estimate">견적 만들기</button>
+      </div>
+    </aside>
+  </div>
+  
+</body>
+</html>
